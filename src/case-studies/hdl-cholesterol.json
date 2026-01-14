@@ -1,13 +1,13 @@
 {
   "id": "hdl",
   "title": "HDL Cholesterol",
-  "subtitle": "The $10 Billion Mistake",
+  "subtitle": "CETP inhibitors raised HDL but failed to reduce cardiovascular events",
   "description": "How a statistical artifact and unmodeled drug pathways led to failed CETP inhibitor trials",
   "modules": [
     {
       "id": "hdl",
       "title": "Case Study: HDL Cholesterol",
-      "subtitle": "The $10 Billion Mistake",
+      "subtitle": "CETP inhibitors raised HDL but failed to reduce cardiovascular events",
       "steps": [
         {
           "type": "narrative",
@@ -42,7 +42,7 @@
         {
           "type": "narrative",
           "title": "Adjusting for total cholesterol inflated HDL's apparent benefit",
-          "content": "In 1989, epidemiologist George Davey Smith noticed something troubling.\n\nMost HDL studies adjusted for total cholesterol or LDL. This seems reasonable—you want to isolate HDL's \"independent\" effect.\n\nBut here's the problem: total cholesterol roughly equals LDL plus HDL. When you adjust for total cholesterol, you're implicitly comparing people with the same total but different compositions.\n\nImagine two people with identical total cholesterol. If one has higher HDL, they must have lower LDL. So you're really comparing someone with high HDL and low LDL to someone with low HDL and high LDL—and attributing the entire difference to HDL.\n\nStudies that avoided this adjustment found much weaker HDL associations. The apparent HDL benefit was at least partly an artifact of how the data were analyzed.",
+          "content": "In 1991, epidemiologists Andrew Phillips and George Davey Smith noticed something troubling.\n\nMost HDL studies adjusted for total cholesterol or LDL. This seems reasonable—you want to isolate HDL's \"independent\" effect.\n\nBut here's the problem: total cholesterol roughly equals LDL plus HDL. When you adjust for total cholesterol, you're implicitly comparing people with the same total but different compositions.\n\nImagine two people with identical total cholesterol. If one has higher HDL, they must have lower LDL. So you're really comparing someone with high HDL and low LDL to someone with low HDL and high LDL—and attributing the entire difference to HDL.\n\nStudies that avoided this adjustment found much weaker HDL associations. The apparent HDL benefit was at least partly an artifact of how the data were analyzed.",
           "next": "Continue"
         },
         {

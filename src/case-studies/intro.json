@@ -27,7 +27,7 @@
         {
           "type": "narrative",
           "title": "These conditions cannot be verified from observational data alone",
-          "content": "Even in a randomized trial, you cannot tell from the data whether the biomarker is confounded with the outcome, whether the drug has unmeasured pathways, or whether transitivity holds.\n\nTo know if a biomarker is a true causal mediator—not just a correlated marker—you would need to experimentally manipulate the biomarker itself. Such experiments are rarely done.\n\nThis is why surrogate failures keep happening despite sophisticated statistical analyses. The analyses answer the wrong question.",
+          "content": "Even in a randomized trial, you cannot tell from the data whether the biomarker is confounded with the outcome, whether the drug has unmeasured pathways, or whether transitivity holds.\n\nTo know if a biomarker is a true causal mediator, you would need to experimentally manipulate the biomarker itself. Such experiments are rarely done.\n\nCorrelations and predictive models cannot answer these questions. Causal inference methods can, but they require either strong assumptions or experimental designs that are rarely implemented in practice.",
           "next": "See the case studies"
         }
       ]

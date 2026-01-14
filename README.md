@@ -24,8 +24,8 @@ Surrogate validity requires that treatment effects flow primarily through the bi
 
 ## Case Studies
 
-- [HDL Cholesterol: The $10 Billion Mistake](/) — How collider bias and direct effects led to failed CETP inhibitor trials
-- [PCSK9: When Valid Targets Don't Validate Therapies](/) — Why genetic evidence for a target doesn't automatically validate gene editing interventions
+- **HDL Cholesterol** — CETP inhibitors raised HDL but failed to reduce cardiovascular events
+- **PCSK9** — Three modalities, three different questions. Genetic exposure, drug inhibitors, and gene editing each require their own evidence.
 
 ## References
 
@@ -33,4 +33,4 @@ See [references documentation](.claude/REFERENCES.md) for the complete bibliogra
 
 ## About
 
-A [Surrogate Science Project](https://github.com/surrogate-sci) production.
+Manjari Narayan · [The Surrogate Science Project](https://github.com/surrogate-sci)
