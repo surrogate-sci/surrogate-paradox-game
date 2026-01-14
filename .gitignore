@@ -1,3 +1,6 @@
+# Agent/AI configuration (keep local)
+.claude/
+
 # Dependencies
 node_modules/
 
