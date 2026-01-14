@@ -1,0 +1,36 @@
+{
+  "id": "intro",
+  "title": "The Surrogate Problem",
+  "modules": [
+    {
+      "id": "intro",
+      "title": "The Surrogate Problem",
+      "steps": [
+        {
+          "type": "narrative",
+          "title": "Clinical trials measure biomarkers to predict outcomes faster",
+          "content": "Waiting for patients to have heart attacks or die takes years. So we measure something faster: a biomarker. Cholesterol levels. Tumor size. Blood pressure.\n\nIf the biomarker improves, we assume the patient will do better.\n\nThis assumption has driven tens of billions of dollars in drug development decisions.",
+          "next": "Continue"
+        },
+        {
+          "type": "narrative",
+          "title": "The surrogate paradox: treatment improves the biomarker but worsens outcomes",
+          "content": "The surrogate paradox occurs when the biomarker predicts the outcome, the treatment moves the biomarker in the beneficial direction, but the treatment doesn't improve outcomes—or makes them worse.\n\nThis happens more often than it should. The pattern is predictable, and the failures often could have been anticipated.",
+          "next": "Continue"
+        },
+        {
+          "type": "narrative",
+          "title": "Three conditions must hold for a surrogate to be valid",
+          "content": "For treatment effects on a biomarker to predict treatment effects on outcomes, three things must be true:\n\n1. The biomarker-outcome relationship must be causal, not confounded. If people with better biomarker values are also healthier in other ways, moving the biomarker won't move the outcome.\n\n2. The treatment must affect outcomes primarily through the biomarker pathway. Drugs affect the body through multiple pathways. If unmeasured pathways cause harm that overwhelms the biomarker pathway, the surrogate will mislead.\n\n3. The surrogate-outcome relationship must hold across patient subgroups, across drugs, and across contexts. Heterogeneity at any of these scales can cause a validated surrogate to fail for a new drug or population.",
+          "next": "Continue"
+        },
+        {
+          "type": "narrative",
+          "title": "These conditions cannot be verified from observational data alone",
+          "content": "Even in a randomized trial, you cannot tell from the data whether the biomarker is confounded with the outcome, whether the drug has unmeasured pathways, or whether transitivity holds.\n\nTo know if a biomarker is a true causal mediator—not just a correlated marker—you would need to experimentally manipulate the biomarker itself. Such experiments are rarely done.\n\nThis is why surrogate failures keep happening despite sophisticated statistical analyses. The analyses answer the wrong question.",
+          "next": "See the case studies"
+        }
+      ]
+    }
+  ]
+}

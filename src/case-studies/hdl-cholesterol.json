@@ -1,0 +1,87 @@
+{
+  "id": "hdl",
+  "title": "HDL Cholesterol",
+  "subtitle": "The $10 Billion Mistake",
+  "description": "How a statistical artifact and unmodeled drug pathways led to failed CETP inhibitor trials",
+  "modules": [
+    {
+      "id": "hdl",
+      "title": "Case Study: HDL Cholesterol",
+      "subtitle": "The $10 Billion Mistake",
+      "steps": [
+        {
+          "type": "narrative",
+          "title": "Higher HDL correlates with fewer heart attacks",
+          "content": "For decades, epidemiologists observed a consistent pattern: people with higher HDL cholesterol have fewer heart attacks.\n\nThe relationship was strong, graded, and seen in every population studied. HDL even had a plausible mechanism—it helps remove cholesterol from arteries.\n\nPharmaceutical companies saw an opportunity. If high HDL protects against heart disease, why not develop drugs that raise HDL?",
+          "next": "Continue"
+        },
+        {
+          "type": "question",
+          "title": "Your Investment Decision",
+          "context": "You're a pharma executive in 2000. You're considering investing $500 million in a drug that raises HDL cholesterol by 50%.\n\nThe evidence for HDL:\n• Strong correlation with outcomes across many studies\n• Biological mechanism (reverse cholesterol transport)\n• Every 1 mg/dL higher HDL associated with 2-3% lower heart disease risk",
+          "question": "What question should you ask before investing?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Can we raise HDL even higher to get more benefit?",
+              "feedback": "wrong"
+            },
+            {
+              "id": "b",
+              "text": "Is the HDL-outcome relationship causal, or could it be confounded?",
+              "feedback": "right"
+            },
+            {
+              "id": "c",
+              "text": "What is the competitive landscape for HDL drugs?",
+              "feedback": "wrong"
+            }
+          ],
+          "explanation": "The critical question is whether HDL actually causes protection, or merely correlates with it.\n\nA biomarker can correlate with outcomes without causing them. People with higher HDL might also exercise more, eat better, or have other protective factors. If HDL is just a marker of these other things, then raising HDL pharmacologically won't help—you'd be moving a number without touching what actually matters."
+        },
+        {
+          "type": "narrative",
+          "title": "Adjusting for total cholesterol inflated HDL's apparent benefit",
+          "content": "In 1989, epidemiologist George Davey Smith noticed something troubling.\n\nMost HDL studies adjusted for total cholesterol or LDL. This seems reasonable—you want to isolate HDL's \"independent\" effect.\n\nBut here's the problem: total cholesterol roughly equals LDL plus HDL. When you adjust for total cholesterol, you're implicitly comparing people with the same total but different compositions.\n\nImagine two people with identical total cholesterol. If one has higher HDL, they must have lower LDL. So you're really comparing someone with high HDL and low LDL to someone with low HDL and high LDL—and attributing the entire difference to HDL.\n\nStudies that avoided this adjustment found much weaker HDL associations. The apparent HDL benefit was at least partly an artifact of how the data were analyzed.",
+          "next": "Continue"
+        },
+        {
+          "type": "narrative",
+          "title": "People with HDL-raising genes don't have fewer heart attacks",
+          "content": "By 2012, geneticists could test HDL causality more directly.\n\nSome people are born with genetic variants that give them naturally higher HDL. If HDL itself is protective, these people should have fewer heart attacks.\n\nThey don't.\n\nPeople with HDL-raising genetic variants have the same heart attack rates as everyone else. Meanwhile, people with LDL-lowering variants have dramatically fewer heart attacks—exactly as predicted if LDL is causal.\n\nThe verdict was becoming clear: HDL was a marker of metabolic health, not a lever you could pull. The correlation people had observed was real, but it wasn't telling us what we thought it was telling us.",
+          "next": "Continue"
+        },
+        {
+          "type": "question",
+          "title": "Four HDL-raising drugs failed in trials, one increased deaths",
+          "context": "Despite these warning signs, four major HDL-raising drugs went to large clinical trials:\n\n• Torcetrapib (Pfizer): Raised HDL 72%. Increased deaths.\n• Dalcetrapib (Roche): Raised HDL 30%. No benefit.\n• Evacetrapib (Lilly): Raised HDL 130%. No benefit.\n• Anacetrapib (Merck): Raised HDL 100%+. Small benefit, likely from LDL lowering.",
+          "question": "Torcetrapib raised HDL substantially but increased deaths. What happened?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The drug raised HDL through the wrong mechanism",
+              "feedback": "partial"
+            },
+            {
+              "id": "b",
+              "text": "The drug affected the body through pathways that weren't being measured",
+              "feedback": "right"
+            },
+            {
+              "id": "c",
+              "text": "HDL needs to be raised even more to see benefit",
+              "feedback": "wrong"
+            }
+          ],
+          "explanation": "Torcetrapib did raise HDL as intended. But drugs don't just do one thing—they affect the body through multiple pathways.\n\nTorcetrapib also raised blood pressure and altered aldosterone and cortisol levels. These effects operated through entirely different mechanisms than the HDL pathway, and they weren't captured by the HDL biomarker.\n\nThis is the trap: you measure what you're trying to change, and the measurement looks good. But the drug is doing other things you're not measuring, and those other things can overwhelm whatever benefit you hoped to get from the biomarker change."
+        },
+        {
+          "type": "narrative",
+          "title": "The warning signs existed before billions were spent",
+          "content": "The HDL story shows two distinct ways surrogates can fail.\n\nFirst, the biomarker-outcome relationship wasn't what it appeared to be. The statistical adjustment for total cholesterol created an artifact. HDL was a sign of metabolic health, not a cause of cardiovascular protection. Moving the number wouldn't move the outcome.\n\nSecond, even if HDL had been causal, drugs affect the body through multiple pathways. Torcetrapib raised blood pressure through mechanisms that had nothing to do with HDL. Any drug brings its own biology, and that biology can work against you through pathways you're not watching.\n\nThe evidence to identify both problems existed before billions were spent on trials. Davey Smith raised concerns about the statistical artifact in 1989. The genetic evidence against HDL causality was accumulating by the mid-2000s. But the investment decisions had already been made.",
+          "next": "Complete"
+        }
+      ]
+    }
+  ]
+}

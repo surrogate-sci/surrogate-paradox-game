@@ -1,0 +1,87 @@
+{
+  "id": "pcsk9",
+  "title": "PCSK9",
+  "subtitle": "Three modalities, three different questions",
+  "description": "Genetic exposure, drug inhibitors, and gene editing each require their own evidence.",
+  "modules": [
+    {
+      "id": "pcsk9",
+      "title": "Case Study: PCSK9",
+      "subtitle": "Three modalities, three different questions",
+      "steps": [
+        {
+          "type": "narrative",
+          "title": "People born without PCSK9 have low LDL and fewer heart attacks",
+          "content": "PCSK9 is a protein that removes LDL receptors from liver cells. Fewer receptors means less LDL clearance from blood, which means higher LDL and more heart disease.\n\nPeople born with loss-of-function mutations in PCSK9 have:\n• Very low LDL cholesterol\n• Dramatically lower rates of heart disease\n• No apparent health problems from missing PCSK9\n\nThis made PCSK9 an attractive drug target. Block PCSK9, lower LDL, prevent heart attacks.",
+          "next": "Continue"
+        },
+        {
+          "type": "narrative",
+          "title": "PCSK9 inhibitor drugs lowered LDL and reduced heart attacks",
+          "content": "The genetic evidence for PCSK9 was strong:\n\n• Mendelian randomization confirmed: people with PCSK9 variants that lower LDL have proportionally fewer heart attacks\n\n• The effect size matched what you'd predict from the LDL reduction\n\n• Unlike HDL, this wasn't a statistical artifact—it replicated with multiple genetic variants and methods\n\nPCSK9 inhibitor drugs were developed. They worked: they lowered LDL and reduced heart attacks in clinical trials.\n\nA clear success. But now consider a different intervention...",
+          "next": "Continue"
+        },
+        {
+          "type": "question",
+          "title": "A New Proposal",
+          "context": "Gene editing technology now allows permanent knockout of PCSK9. A single treatment could eliminate PCSK9 production forever, providing lifelong LDL reduction without ongoing drug treatment.\n\nThe pitch: \"Genetic evidence proves that eliminating PCSK9 is safe and effective. People born without functional PCSK9 do great. Let's offer this to 50-year-olds with high cardiovascular risk.\"",
+          "question": "Does the genetic evidence validate gene editing PCSK9 in middle-aged adults?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Yes—the genetic evidence proves eliminating PCSK9 is beneficial",
+              "feedback": "wrong"
+            },
+            {
+              "id": "b",
+              "text": "Partially—but we need to consider what the genetic evidence actually shows",
+              "feedback": "right"
+            },
+            {
+              "id": "c",
+              "text": "No—gene editing is completely different from natural genetic variation",
+              "feedback": "partial"
+            }
+          ],
+          "explanation": "The genetic evidence tells us about people who never had functional PCSK9 from conception.\n\nThis is different from eliminating PCSK9 at age 50:\n\n• Developmental effects: Did the body adapt during development to low PCSK9?\n• Cumulative exposure: 50 years of normal LDL vs. 50 years of low LDL are different histories\n• Intervention effects: Gene editing itself may have off-target effects\n• Reversibility: Natural variants can't be \"undone\" if problems emerge; gene editing is similarly permanent\n\nThe genetic evidence validates PCSK9 as a target. It doesn't validate every possible intervention on that target."
+        },
+        {
+          "type": "narrative",
+          "title": "Lifelong genetic absence differs from elimination at age 50",
+          "content": "This is the subtlest failure mode.\n\nThe genetic evidence tells you: \"People who have had X their entire lives, from conception, do well.\"\n\nThis does NOT automatically tell you: \"Giving X to a 50-year-old will produce equivalent benefit.\"\n\nWhy might they differ?\n\nTIMING: The cardiovascular benefit of low LDL accumulates over decades. Starting at 50 means you've already had 50 years of damage.\n\nCOMPENSATION: Bodies adapt to lifelong genetic differences. A sudden change at 50 may trigger different compensatory responses.\n\nTHE INTERVENTION ITSELF: Gene editing has its own risks (off-target edits, immune responses) that natural genetic variants don't have.",
+          "next": "Continue"
+        },
+        {
+          "type": "question",
+          "title": "Transportability",
+          "context": "A colleague argues: \"We have three lines of evidence:\n1. Genetic studies show lifelong low PCSK9 is beneficial\n2. Drug trials show pharmacological PCSK9 inhibition works\n3. Therefore gene editing must work too\"",
+          "question": "What's missing from this argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "More genetic studies with larger sample sizes",
+              "feedback": "wrong"
+            },
+            {
+              "id": "b",
+              "text": "Direct evidence about gene editing specifically—each intervention type needs its own evidence",
+              "feedback": "right"
+            },
+            {
+              "id": "c",
+              "text": "Nothing—three lines of evidence should be sufficient",
+              "feedback": "wrong"
+            }
+          ],
+          "explanation": "Each intervention is a different question:\n\n• Does lifelong genetically-determined low PCSK9 cause benefit? → Genetic studies answer this\n\n• Does pharmacological PCSK9 inhibition (reversible, starting in adulthood) cause benefit? → Drug trials answer this\n\n• Does gene editing PCSK9 (irreversible, starting in adulthood, with editing-specific effects) cause benefit? → Nothing directly answers this yet\n\nThe evidence doesn't automatically transport across intervention types. Drug trials actually help more than genetics here, because they're closer to gene editing in timing and mechanism—but they're still not the same (reversible vs. irreversible, antibody effects vs. editing effects).\n\nIgnoring these distinctions is how surrogate paradoxes happen."
+        },
+        {
+          "type": "narrative",
+          "title": "Genetic evidence validates targets, not therapies",
+          "content": "PCSK9 illustrates Failure Mode #3: conflating different interventions.\n\nUnlike HDL, PCSK9 is a valid causal target. The genetic evidence is solid. The drugs work.\n\nBut \"valid target\" doesn't mean \"any intervention on this target is validated.\"\n\nThe question isn't just \"is this target causal?\" but:\n• What intervention are we actually evaluating?\n• What evidence do we have about that specific intervention?\n• What's different about our intervention compared to the evidence we're relying on?\n\nGenetic evidence validates targets. It doesn't automatically validate therapies.",
+          "next": "Complete"
+        }
+      ]
+    }
+  ]
+}
