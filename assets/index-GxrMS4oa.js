@@ -64,7 +64,7 @@ The evidence for HDL:
 • Biological mechanism (reverse cholesterol transport)
 • Every 1 mg/dL higher HDL associated with 2-3% lower heart disease risk`,question:"What question should you ask before investing?",options:[{id:"a",text:"Can we raise HDL even higher to get more benefit?",feedback:"wrong"},{id:"b",text:"Is the HDL-outcome relationship causal, or could it be confounded?",feedback:"right"},{id:"c",text:"What is the competitive landscape for HDL drugs?",feedback:"wrong"}],explanation:`The critical question is whether HDL actually causes protection, or merely correlates with it.
 
-A biomarker can correlate with outcomes without causing them. People with higher HDL might also exercise more, eat better, or have other protective factors. If HDL is just a marker of these other things, then raising HDL pharmacologically won't help—you'd be moving a number without touching what actually matters.`},{type:"narrative",title:"Adjusting for total cholesterol inflated HDL's apparent benefit",content:`In 1989, epidemiologist George Davey Smith noticed something troubling.
+A biomarker can correlate with outcomes without causing them. People with higher HDL might also exercise more, eat better, or have other protective factors. If HDL is just a marker of these other things, then raising HDL pharmacologically won't help—you'd be moving a number without touching what actually matters.`},{type:"narrative",title:"Adjusting for total cholesterol inflated HDL's apparent benefit",content:`In 1991, epidemiologists Andrew Phillips and George Davey Smith noticed something troubling.
 
 Most HDL studies adjusted for total cholesterol or LDL. This seems reasonable—you want to isolate HDL's "independent" effect.
 
