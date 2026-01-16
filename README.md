@@ -24,8 +24,8 @@ Surrogate validity requires that treatment effects flow primarily through the bi
 
 ## Case Studies
 
-- **HDL Cholesterol** — CETP inhibitors raised HDL but failed to reduce cardiovascular events
-- **PCSK9** — Three modalities, three different questions. Genetic exposure, drug inhibitors, and gene editing each require their own evidence.
+- [HDL Cholesterol](https://surrogate-sci.github.io/surrogate-paradox-game/) — CETP inhibitors raised HDL but failed to reduce cardiovascular events
+- [PCSK9](https://surrogate-sci.github.io/surrogate-paradox-game/) — Three modalities, three different questions. Genetic exposure, drug inhibitors, and gene editing each require their own evidence.
 
 ## References
 
